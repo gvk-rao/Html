@@ -1,0 +1,162 @@
+body{
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana;
+}
+
+.main{
+  width: 40%;
+  height: 50%;
+  background-color: white;
+  border-radius: 15px;
+}
+h1{
+  margin-left: 30px;
+  margin-right: 150px;
+  padding-top: 5px;
+  font-size: x-large;
+  font-weight: normal;
+}
+.title{
+  display: flex;
+}
+.sub-title{
+  width: 60px;
+  height: 30px;
+  border-left: 2px solid red;
+  margin: 10px;
+  padding: 5px;
+}
+p{
+  font-size: small;
+  margin-right: 20px;
+  padding-top: 8px;
+}
+.p1{
+  padding: 0;
+  margin: 0;
+}
+.i1{
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin: 0;
+}
+hr{
+  width: 90%;
+  margin-top: -5px;
+}
+.d1{
+  display: flex;
+}
+.left,.right{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: rgb(248,248,248);
+}
+.left{
+  margin-left: 25px;
+  margin-right: 115px;
+}
+.right{
+  margin-left: 100px;
+    
+}
+.p2{
+  text-align: center;
+  width: 40%;
+  padding: 8px;
+  font-size: small;
+  background-color: rgb(248, 248, 248);
+}
+.blue,.green{
+  width: 500px;
+  height: 150px;
+  background-color: rgb(243,247,255);
+  border-left: 5px solid rgb(4,94,227);
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.green{
+  background-color: rgb(243,249,247);
+  border-left: 5px solid rgb(4,133,104);
+}
+.ins{
+  display: flex;
+  margin-bottom: -30px;
+}
+.blue-ins{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.inl{
+  display: flex;
+  margin-top: -20px;
+}
+a{
+  color: black;
+  font-size: x-small;
+}
+.button{
+  display: flex;
+}
+.left-b{
+  height: 25px; 
+  width: 60px; 
+  background-color: rgb(34,115,232); 
+  color: white; 
+  border-style: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.mid-b{
+  height: 25px;
+  width: 80px;
+  background-color: rgb(242,246,255);
+  color: blue;
+  border: 1px solid blue;
+  margin-right: 10px;
+}
+.right-b{
+  height: 25px; 
+  width: 60px;
+  color: blue;
+  background-color: rgb(242,246,255);
+  border: 1px solid blue;
+}
+.left-g{
+  height: 25px; 
+  width: 60px; 
+  background-color: rgb(34,148,125); 
+  color: white; 
+  border-style: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.mid-g{
+  height: 25px;
+  width: 80px;
+  background-color: rgb(242,246,255);
+  color: green;
+  border: 1px solid green;
+  margin-right: 10px;
+}
+.right-g{
+  height: 25px; 
+  width: 60px;
+  background-color: rgb(242,246,255);
+  color: green;
+  border: 1px solid green;
+}
+.next{
+  text-align: right; 
+  font-size: medium; 
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+.a1{
+  color: red; 
+  font-size: medium; 
+}
